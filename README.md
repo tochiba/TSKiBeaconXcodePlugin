@@ -1,0 +1,4 @@
+TSKiBeaconXcodePlugin
+=====================
+
+iBeaconのテストをするためのXcodeプラグインです。
