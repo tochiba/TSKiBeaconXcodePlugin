@@ -19,7 +19,7 @@ static const unsigned short int mMinor = 0;
 static const int mMeasurePower = 0;
 ```  
 
-1. set  
+1. setup  
 2. build (command + B)
 3. restart
 
