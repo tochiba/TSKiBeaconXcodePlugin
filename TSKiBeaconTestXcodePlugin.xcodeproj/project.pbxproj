@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FA9B76918CAE5AE001C4FA1 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA9B76818CAE5AE001C4FA1 /* AppKit.framework */; };
+		8FA9B76B18CAE5AE001C4FA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA9B76A18CAE5AE001C4FA1 /* Foundation.framework */; };
+		8FA9B77118CAE5AE001C4FA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FA9B76F18CAE5AE001C4FA1 /* InfoPlist.strings */; };
+		8FA9B77418CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9B77318CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin.m */; };
+		8FA9B77D18CAE7CE001C4FA1 /* TSKPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9B77C18CAE7CE001C4FA1 /* TSKPeripheralManager.m */; };
+		8FA9B77F18CAEB1F001C4FA1 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA9B77E18CAEB1F001C4FA1 /* IOBluetooth.framework */; };
+		8FA9B78218CAEC8C001C4FA1 /* BLCBeaconAdvertisementData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9B78118CAEC8C001C4FA1 /* BLCBeaconAdvertisementData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8FA9B76518CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSKiBeaconTestXcodePlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA9B76818CAE5AE001C4FA1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8FA9B76A18CAE5AE001C4FA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8FA9B76E18CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TSKiBeaconTestXcodePlugin-Info.plist"; sourceTree = "<group>"; };
+		8FA9B77018CAE5AE001C4FA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8FA9B77218CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSKiBeaconTestXcodePlugin.h; sourceTree = "<group>"; };
+		8FA9B77318CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TSKiBeaconTestXcodePlugin.m; sourceTree = "<group>"; };
+		8FA9B77518CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TSKiBeaconTestXcodePlugin-Prefix.pch"; sourceTree = "<group>"; };
+		8FA9B77B18CAE7CE001C4FA1 /* TSKPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSKPeripheralManager.h; sourceTree = "<group>"; };
+		8FA9B77C18CAE7CE001C4FA1 /* TSKPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSKPeripheralManager.m; sourceTree = "<group>"; };
+		8FA9B77E18CAEB1F001C4FA1 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		8FA9B78018CAEC8C001C4FA1 /* BLCBeaconAdvertisementData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCBeaconAdvertisementData.h; sourceTree = "<group>"; };
+		8FA9B78118CAEC8C001C4FA1 /* BLCBeaconAdvertisementData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCBeaconAdvertisementData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FA9B76218CAE5AE001C4FA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA9B77F18CAEB1F001C4FA1 /* IOBluetooth.framework in Frameworks */,
+				8FA9B76918CAE5AE001C4FA1 /* AppKit.framework in Frameworks */,
+				8FA9B76B18CAE5AE001C4FA1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FA9B75C18CAE5AE001C4FA1 = {
+			isa = PBXGroup;
+			children = (
+				8FA9B78018CAEC8C001C4FA1 /* BLCBeaconAdvertisementData.h */,
+				8FA9B78118CAEC8C001C4FA1 /* BLCBeaconAdvertisementData.m */,
+				8FA9B76C18CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin */,
+				8FA9B76718CAE5AE001C4FA1 /* Frameworks */,
+				8FA9B76618CAE5AE001C4FA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FA9B76618CAE5AE001C4FA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FA9B76518CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FA9B76718CAE5AE001C4FA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FA9B77E18CAEB1F001C4FA1 /* IOBluetooth.framework */,
+				8FA9B76818CAE5AE001C4FA1 /* AppKit.framework */,
+				8FA9B76A18CAE5AE001C4FA1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FA9B76C18CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				8FA9B77B18CAE7CE001C4FA1 /* TSKPeripheralManager.h */,
+				8FA9B77C18CAE7CE001C4FA1 /* TSKPeripheralManager.m */,
+				8FA9B77218CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin.h */,
+				8FA9B77318CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin.m */,
+				8FA9B76D18CAE5AE001C4FA1 /* Supporting Files */,
+			);
+			path = TSKiBeaconTestXcodePlugin;
+			sourceTree = "<group>";
+		};
+		8FA9B76D18CAE5AE001C4FA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FA9B76E18CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin-Info.plist */,
+				8FA9B76F18CAE5AE001C4FA1 /* InfoPlist.strings */,
+				8FA9B77518CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FA9B76418CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA9B77818CAE5AE001C4FA1 /* Build configuration list for PBXNativeTarget "TSKiBeaconTestXcodePlugin" */;
+			buildPhases = (
+				8FA9B76118CAE5AE001C4FA1 /* Sources */,
+				8FA9B76218CAE5AE001C4FA1 /* Frameworks */,
+				8FA9B76318CAE5AE001C4FA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSKiBeaconTestXcodePlugin;
+			productName = TSKiBeaconTestXcodePlugin;
+			productReference = 8FA9B76518CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FA9B75D18CAE5AE001C4FA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Toshiki Chiba";
+			};
+			buildConfigurationList = 8FA9B76018CAE5AE001C4FA1 /* Build configuration list for PBXProject "TSKiBeaconTestXcodePlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8FA9B75C18CAE5AE001C4FA1;
+			productRefGroup = 8FA9B76618CAE5AE001C4FA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FA9B76418CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FA9B76318CAE5AE001C4FA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA9B77118CAE5AE001C4FA1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FA9B76118CAE5AE001C4FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA9B77418CAE5AE001C4FA1 /* TSKiBeaconTestXcodePlugin.m in Sources */,
+				8FA9B77D18CAE7CE001C4FA1 /* TSKPeripheralManager.m in Sources */,
+				8FA9B78218CAEC8C001C4FA1 /* BLCBeaconAdvertisementData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FA9B76F18CAE5AE001C4FA1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FA9B77018CAE5AE001C4FA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FA9B77618CAE5AE001C4FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8FA9B77718CAE5AE001C4FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8FA9B77918CAE5AE001C4FA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSKiBeaconTestXcodePlugin/TSKiBeaconTestXcodePlugin-Prefix.pch";
+				INFOPLIST_FILE = "TSKiBeaconTestXcodePlugin/TSKiBeaconTestXcodePlugin-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		8FA9B77A18CAE5AE001C4FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TSKiBeaconTestXcodePlugin/TSKiBeaconTestXcodePlugin-Prefix.pch";
+				INFOPLIST_FILE = "TSKiBeaconTestXcodePlugin/TSKiBeaconTestXcodePlugin-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FA9B76018CAE5AE001C4FA1 /* Build configuration list for PBXProject "TSKiBeaconTestXcodePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA9B77618CAE5AE001C4FA1 /* Debug */,
+				8FA9B77718CAE5AE001C4FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FA9B77818CAE5AE001C4FA1 /* Build configuration list for PBXNativeTarget "TSKiBeaconTestXcodePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA9B77918CAE5AE001C4FA1 /* Debug */,
+				8FA9B77A18CAE5AE001C4FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FA9B75D18CAE5AE001C4FA1 /* Project object */;
+}
